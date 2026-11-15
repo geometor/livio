@@ -1,0 +1,70 @@
+{
+  "citations": [
+    {
+      "id": "livio-2002",
+      "author": "Mario Livio",
+      "title": "The Golden Ratio: The Story of Phi, the World's Most Astonishing Number",
+      "publisher": "Broadway Books (Random House), New York",
+      "year": "2002 / 2003",
+      "isbn": "978-0-7679-0815-3 (hc) / 978-0-7679-0816-0 (pbk)",
+      "repository": "geometor/livio"
+    },
+    {
+      "id": "herz-fischler-1998",
+      "author": "Roger Herz-Fischler",
+      "title": "A Mathematical History of the Golden Number",
+      "publisher": "Dover Publications, Mineola, NY (orig. A Mathematical History of Division in Extreme and Mean Ratio, 1987)",
+      "year": "1998",
+      "isbn": "978-0-486-40007-5"
+    },
+    {
+      "id": "markowsky-1992",
+      "author": "George Markowsky",
+      "title": "Misconceptions about the Golden Ratio",
+      "publisher": "The College Mathematics Journal, Vol. 23, No. 1, pp. 2–19",
+      "year": "1992"
+    },
+    {
+      "id": "curchin-herz-fischler-1981",
+      "author": "Leonard A. Curchin & Roger Herz-Fischler",
+      "title": "De Aliquibus Numeris Aureis: Or, Was Vergil Using the Golden Section in the Aeneid?",
+      "publisher": "Historia Mathematica / Classical Philology audit of George E. Duckworth (1962)",
+      "year": "1981"
+    },
+    {
+      "id": "douady-couder-1992",
+      "author": "Stéphane Douady & Yves Couder",
+      "title": "Phyllotaxis as a Physical Self-Organized Growth Process",
+      "publisher": "Physical Review Letters, Vol. 68, pp. 2098–2101",
+      "year": "1992"
+    },
+    {
+      "id": "gummelt-1996",
+      "author": "Petra Gummelt",
+      "title": "Penrose Tilings as Coverings of Congruent Decagons",
+      "publisher": "Geometriae Dedicata, Vol. 62, pp. 1–17",
+      "year": "1996"
+    },
+    {
+      "id": "putz-1995",
+      "author": "John F. Putz",
+      "title": "The Golden Section and the Piano Sonatas of Mozart",
+      "publisher": "Mathematics Magazine, Vol. 68, No. 4, pp. 275–282",
+      "year": "1995"
+    },
+    {
+      "id": "hill-1995",
+      "author": "Theodore P. Hill",
+      "title": "A Statistical Derivation of the Significant-Digit Law",
+      "publisher": "Statistical Science, Vol. 10, No. 4, pp. 354–363",
+      "year": "1995"
+    },
+    {
+      "id": "viswanath-2000",
+      "author": "Divakar Viswanath",
+      "title": "Random Fibonacci Sequences and the Number 1.13198824...",
+      "publisher": "Mathematics of Computation, Vol. 69, No. 231, pp. 1131–1155",
+      "year": "1999 / 2000"
+    }
+  ]
+}

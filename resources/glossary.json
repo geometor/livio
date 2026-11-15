@@ -1,0 +1,36 @@
+{
+  "terms": [
+    {
+      "term": "Extreme and Mean Ratio (akos kai mesos logos)",
+      "definition": "Euclid's Book VI Definition 3 division of a segment so that the whole is to the greater part as the greater is to the lesser, yielding phi = (1 + sqrt(5))/2."
+    },
+    {
+      "term": "Seked",
+      "definition": "Ancient Egyptian architectural measure of pyramid inclination: horizontal run in palms (1/7 royal cubit) per 1 royal cubit of vertical rise; Khufu's 5.5-palm seked gives h/a = 14/11."
+    },
+    {
+      "term": "Golden Angle",
+      "definition": "Smaller supplementary division of a full turn in the Golden Ratio: 360 deg / phi^2 = 360 deg * (2 - phi) ~ 137.50776 deg, governing optimal divergence in botanical phyllotaxis."
+    },
+    {
+      "term": "Spira mirabilis",
+      "definition": "Jacob Bernoulli's equiangular logarithmic spiral ln(r/r_0) = k*theta, invariant in shape under scaling; distinct from inscribed quarter-circle arcs inside whirling Golden Rectangles."
+    },
+    {
+      "term": "Kepler Triangle",
+      "definition": "Right triangle (Johannes Kepler, Oct 1597 letter to Michael Maestlin) whose sides form the geometric progression 1 : sqrt(phi) : phi."
+    },
+    {
+      "term": "Major-to-Whole Compression Fallacy",
+      "definition": "Statistical artifact identified by Curchin & Herz-Fischler (1981) and Putz (1995): mapping positive pairs 0 < m < M to M/(M + m) shrinks distance to 1/phi by phi*(1 + m/M) > phi."
+    },
+    {
+      "term": "Sturmian Golden Sequence",
+      "definition": "Infinite nonperiodic binary fixed point 1011010110110... of the morphism 1 -> 10, 0 -> 1, encoding 1D quasicrystal spacing with symbol-frequency ratio phi."
+    },
+    {
+      "term": "Viswanath's Constant",
+      "definition": "Exact almost-sure exponential growth base lim |t_n|^(1/n) = 1.13198824... of the random Fibonacci recurrence t_n = t_{n-1} +/- t_{n-2} (Divakar Viswanath, 1999)."
+    }
+  ]
+}

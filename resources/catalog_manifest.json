@@ -1,0 +1,549 @@
+{
+  "catalog": "livio",
+  "title": "The Golden Ratio: The Story of Phi, the World's Most Astonishing Number",
+  "author": "Mario Livio (b. 1945)",
+  "publication": {
+    "publisher": "Broadway Books (Random House), New York",
+    "year_hardcover": 2002,
+    "year_paperback": 2003,
+    "isbn_hardcover": "978-0-7679-0815-3",
+    "isbn_paperback": "978-0-7679-0816-0",
+    "structure": "9 Chapters + 10 Mathematical Appendices, 128 Numbered Figures",
+    "notation": "phi = (1 + sqrt(5))/2; tau = (1 + sqrt(5))/2 (professional Greek tome, Mark Barr vs. Martin Ohm 1835)",
+    "scan_audit": {
+      "study_pdf_pages": 268,
+      "scan_range": "page-001.png .. page-268.png (300 DPI multimodal vision audit)",
+      "reflowed_pdf_omitted_print_pages": [
+        "p. 103 (between page-107.png and page-108.png; Cassini identity also appears on p. 152, page-155.png)",
+        "p. 108 (between page-111.png and page-112.png; Binet formula also referenced on p. 235, page-237.png)",
+        "p. 205 (between page-207.png and page-208.png; Figs. 101-104 Penrose rhombi, shown in Fig. 105 on page-208.png)",
+        "p. 256 (between page-256.png and page-257.png; Appendix 2 pentagram diagram, proof text completes on page-257.png)"
+      ]
+    }
+  },
+  "chapters": [
+    { "number": "1", "title": "Prelude to a Number", "print_pages": "1-11", "scans": "page-006.png .. page-016.png", "figures": "Figs. 1-5" },
+    { "number": "2", "title": "The Pitch and the Pentagram", "print_pages": "12-41", "scans": "page-017.png .. page-046.png", "figures": "Figs. 6-11" },
+    { "number": "3", "title": "Under a Star-y-Pointing Pyramid?", "print_pages": "42-61", "scans": "page-047.png .. page-066.png", "figures": "Figs. 12-18" },
+    { "number": "4", "title": "The Second Treasure", "print_pages": "62-91", "scans": "page-067.png .. page-096.png", "figures": "Figs. 19-26" },
+    { "number": "5", "title": "Son of Good Nature", "print_pages": "92-123", "scans": "page-097.png .. page-126.png", "figures": "Figs. 27-44" },
+    { "number": "6", "title": "The Divine Proportion", "print_pages": "124-158", "scans": "page-127.png .. page-161.png", "figures": "Figs. 45-69" },
+    { "number": "7", "title": "Painters and Poets Have Equal License", "print_pages": "159-200", "scans": "page-162.png .. page-203.png", "figures": "Figs. 70-91" },
+    { "number": "8", "title": "From the Tiles to the Heavens", "print_pages": "201-228", "scans": "page-204.png .. page-230.png", "figures": "Figs. 92-127" },
+    { "number": "9", "title": "Is God a Mathematician?", "print_pages": "229-253", "scans": "page-231.png .. page-255.png", "figures": "Fig. 128" },
+    { "number": "App. 1-10", "title": "Appendices 1-10", "print_pages": "255-268", "scans": "page-256.png .. page-268.png", "figures": "Appendix Diagrams" }
+  ],
+  "entries": [
+    {
+      "id": "LIV-01.01",
+      "chapter": "Ch. 1",
+      "title": "Chocolate-Bar Break Invariant (n - 1) & Buffon's Needle Probability (P = 2/pi)",
+      "source_locus": "Ch. 1, pp. 1-5 (page-006.png .. page-010.png, Fig. 1)",
+      "field": "Q(pi)",
+      "status": "cataloged",
+      "category": "theorem",
+      "figures": ["Fig. 1"]
+    },
+    {
+      "id": "LIV-01.02",
+      "chapter": "Ch. 1",
+      "title": "Euclid Book VI Def. 3 Extreme and Mean Ratio & Nomenclature Audit (Martin Ohm 1835, Mark Barr phi)",
+      "source_locus": "Ch. 1, pp. 3-8 (page-008.png .. page-013.png, Fig. 2)",
+      "field": "Q(phi)",
+      "status": "verified",
+      "category": "definition-and-audit",
+      "verdict": "Confirmed (19th-20th c. coinage; pre-1835 'Golden Section' name refuted via Herz-Fischler)",
+      "figures": ["Fig. 2", "Fig. 3", "Fig. 4", "Fig. 5"]
+    },
+    {
+      "id": "LIV-02.01",
+      "chapter": "Ch. 2",
+      "title": "Recreational Trigonometric Identity sin(666 deg) + cos(216 deg) = -phi",
+      "source_locus": "Ch. 2, p. 25 (page-030.png)",
+      "field": "Q(phi)",
+      "status": "verified",
+      "category": "identity",
+      "verifier": "verify_recreational_666_identity"
+    },
+    {
+      "id": "LIV-02.02",
+      "chapter": "Ch. 2",
+      "title": "Pythagorean Square Dissection Proof & Plimpton 322 Triple Generator (p^2 - q^2, 2pq, p^2 + q^2)",
+      "source_locus": "Ch. 2, pp. 26-29 (page-031.png .. page-034.png, Fig. 7); App. 1",
+      "field": "Q",
+      "status": "verified",
+      "category": "theorem",
+      "figures": ["Fig. 7"],
+      "verifier": "verify_pythagorean_triple_identity"
+    },
+    {
+      "id": "LIV-02.03",
+      "chapter": "Ch. 2",
+      "title": "Pythagorean Monochord Consonances (1:2, 2:3, 3:4), Tetractys & Perfect Numbers",
+      "source_locus": "Ch. 2, pp. 29-34 (page-034.png .. page-039.png, Fig. 8)",
+      "field": "Q",
+      "status": "cataloged",
+      "category": "historical-audit",
+      "verdict": "Confirmed math; Gaffurio hammer/bell weight ratios refuted physically (Mersenne)",
+      "figures": ["Fig. 8"]
+    },
+    {
+      "id": "LIV-02.04",
+      "chapter": "Ch. 2",
+      "title": "Pythagorean Pentagram ('Health') & Hippasus Infinite-Descent Incommensurability of Phi",
+      "source_locus": "Ch. 2, pp. 34-41 (page-039.png .. page-046.png, Figs. 9-11); App. 2",
+      "field": "Q(phi)",
+      "status": "verified",
+      "category": "theorem",
+      "verdict": "Confirmed math; Plausible/Open whether Hippasus discovered irrationality via pentagram phi vs. square sqrt(2)",
+      "figures": ["Fig. 9", "Fig. 10", "Fig. 11"],
+      "verifier": "verify_pentagram_descent_step"
+    },
+    {
+      "id": "LIV-03.01",
+      "chapter": "Ch. 3",
+      "title": "Old Babylonian Susa Tablet Pentagon Area Constant 1;40 = 5/3 vs. Exact 5*phi / (4*sqrt(3 - phi))",
+      "source_locus": "Ch. 3, pp. 43-45 (page-048.png .. page-050.png, Fig. 12)",
+      "field": "Q(phi, sqrt(3 - phi))",
+      "status": "verified",
+      "category": "theorem-and-audit",
+      "verdict": "Confirmed rational approximation (5/3 = 1.6667 vs. 1.72048); pre-Greek phi knowledge refuted",
+      "figures": ["Fig. 12"],
+      "verifier": "verify_susa_pentagon_area"
+    },
+    {
+      "id": "LIV-03.02",
+      "chapter": "Ch. 3",
+      "title": "Dimension-Juggling Error Propagation (+/-2% -> +/-4% Ratio) & Mesopotamian/Egyptian Overlay Audit",
+      "source_locus": "Ch. 3, pp. 45-53 (page-050.png .. page-058.png, Figs. 13-17)",
+      "field": "Q",
+      "status": "cataloged",
+      "category": "historical-audit",
+      "verdict": "Refuted Myth (Shamash Tablet, Osirion Temple, Tomb of Petosiris overlays by Schwaller de Lubicz & Lawlor)",
+      "figures": ["Fig. 13", "Fig. 14", "Fig. 15", "Fig. 16", "Fig. 17"]
+    },
+    {
+      "id": "LIV-03.03",
+      "chapter": "Ch. 3",
+      "title": "Great Pyramid of Khufu Audit: John Taylor's Fabricated Herodotus Quote vs. 5.5-Palm Egyptian Seked (14/11)",
+      "source_locus": "Ch. 3, pp. 53-61 (page-058.png .. page-066.png, Fig. 18); App. 3",
+      "field": "Q(phi, sqrt(317))",
+      "status": "verified",
+      "category": "theorem-and-audit",
+      "verdict": "Refuted Myth (Herz-Fischler & Markowsky: seked 5.5 palms gives h/a = 14/11, s/a = sqrt(317)/11 = 1.61859, and 8a/h = 44/7 simultaneously)",
+      "figures": ["Fig. 18"],
+      "verifier": "verify_pyramid_herodotus_and_seked"
+    },
+    {
+      "id": "LIV-04.01",
+      "chapter": "Ch. 4",
+      "title": "Platonic Solids in Q(phi): Dodecahedron/Icosahedron Volumes, Dual Ratio phi^2/sqrt(5) & Three Orthogonal Golden Rectangles",
+      "source_locus": "Ch. 4, pp. 67-74 (page-072.png .. page-079.png, Figs. 20-22)",
+      "field": "Q(phi, sqrt(3 - phi))",
+      "status": "verified",
+      "category": "theorem",
+      "figures": ["Fig. 20", "Fig. 21", "Fig. 22"],
+      "verifier": "verify_platonic_icosa_dodec_metrics"
+    },
+    {
+      "id": "LIV-04.02",
+      "chapter": "Ch. 4",
+      "title": "The Parthenon & Greek Vase Audit (Adolf Zeising, Matila Ghyka, Jay Hambidge vs. Markowsky)",
+      "source_locus": "Ch. 4, pp. 74-77 (page-079.png .. page-082.png, Fig. 23)",
+      "field": "Q(phi)",
+      "status": "cataloged",
+      "category": "historical-audit",
+      "verdict": "Refuted Myth (Parthenon facade W = 101.34 ft, H = 45.0 ft gives W/H = 2.25 or ~1.72 with pedestal; zero phi design)",
+      "figures": ["Fig. 23"]
+    },
+    {
+      "id": "LIV-04.03",
+      "chapter": "Ch. 4",
+      "title": "Euclid's Elements Golden Canon (II.11, IV.10-11, VI.def.3, VI.30, Book XIII) & Golden Triangle / Gnomon",
+      "source_locus": "Ch. 4, pp. 77-83 (page-082.png .. page-088.png, Figs. 24-25); App. 4",
+      "field": "Q(phi)",
+      "status": "verified",
+      "category": "construction",
+      "verdict": "Confirmed Intentional (Euclid developed Extreme and Mean Ratio strictly to construct the pentagon, icosahedron, and dodecahedron)",
+      "figures": ["Fig. 24", "Fig. 25"],
+      "verifier": "verify_golden_triangle_similarity"
+    },
+    {
+      "id": "LIV-04.04",
+      "chapter": "Ch. 4",
+      "title": "Infinite Nested Radical sqrt(1 + sqrt(1 + ...)) & Simple Continued Fraction [1; 1, 1, ...] ('Most Irrational' Number)",
+      "source_locus": "Ch. 4, pp. 83-85 (page-088.png .. page-090.png); Ch. 5, pp. 106-107",
+      "field": "Q(phi)",
+      "status": "verified",
+      "category": "theorem"
+    },
+    {
+      "id": "LIV-04.05",
+      "chapter": "Ch. 4",
+      "title": "Whirling-Square Golden Rectangle Self-Similarity & Pickover's Perpendicular-Diagonal 'Eye of God'",
+      "source_locus": "Ch. 4, pp. 85-86 (page-090.png .. page-091.png, Fig. 26)",
+      "field": "Q(phi)",
+      "status": "cataloged",
+      "category": "construction",
+      "figures": ["Fig. 26"]
+    },
+    {
+      "id": "LIV-04.06",
+      "chapter": "Ch. 4",
+      "title": "Islamic Golden Algebra: Al-Khwarizmi's 10-Division (10x = (10 - x)^2), Abu Kamil's 20 Pentagon Problems & Abu'l-Wafa's Rusty Compass",
+      "source_locus": "Ch. 4, pp. 87-91 (page-092.png .. page-096.png)",
+      "field": "Q(phi)",
+      "status": "verified",
+      "category": "theorem-and-construction",
+      "verdict": "Confirmed Intentional (Lurey & Herz-Fischler proved al-Khwarizmi's 10-division matches Euclid II.11)",
+      "verifier": "verify_alkhwarizmi_ten_division"
+    },
+    {
+      "id": "LIV-05.01",
+      "chapter": "Ch. 5",
+      "title": "Fibonacci's Liber abaci Bezant Inheritance (E = 36, x = 6), Liber quadratorum Congruent-5 Squares & Rabbit Recurrence",
+      "source_locus": "Ch. 5, pp. 92-101 (page-097.png .. page-106.png, Fig. 27); App. 6",
+      "field": "Q",
+      "status": "verified",
+      "category": "theorem",
+      "figures": ["Fig. 27"],
+      "verifier": "verify_fibonacci_identities"
+    },
+    {
+      "id": "LIV-05.02",
+      "chapter": "Ch. 5",
+      "title": "Combinatorial Fibonacci Realizations: Two-Plate Light Reflections (F_{k+2}), Staircase Steps (F_{n+1}) & Drone Bee Genealogy",
+      "source_locus": "Ch. 5, pp. 101-105 (page-106.png .. page-109.png, Figs. 28-29)",
+      "field": "Q",
+      "status": "cataloged",
+      "category": "theorem",
+      "figures": ["Fig. 28", "Fig. 29"]
+    },
+    {
+      "id": "LIV-05.03",
+      "chapter": "Ch. 5",
+      "title": "Fibonacci Number Theory: Kepler-Simson Limit, Square-Rectangle Tiling, 11*F_{k+6}, Pisano Periods, 1/89 & Raine Pythagorean Triples",
+      "source_locus": "Ch. 5, pp. 105-109 (page-109.png .. page-112.png, Fig. 30)",
+      "field": "Q(phi)",
+      "status": "verified",
+      "category": "identity",
+      "figures": ["Fig. 30"],
+      "verifier": "verify_fibonacci_identities"
+    },
+    {
+      "id": "LIV-05.04",
+      "chapter": "Ch. 5",
+      "title": "Botanical Phyllotaxis, the Golden Angle 360 deg / phi^2 (~137.5 deg) & Douady-Couder Magnetic-Droplet Physics",
+      "source_locus": "Ch. 5, pp. 109-116 (page-112.png .. page-119.png, Figs. 31-36)",
+      "field": "Q(phi)",
+      "status": "cataloged",
+      "category": "physics-and-audit",
+      "verdict": "Confirmed physical optimization (Bravais & Bravais 1837, van Iterson 1907, Douady & Couder 1992-1996; Coxeter's 'fascinatingly prevalent tendency' caveat)",
+      "figures": ["Fig. 31", "Fig. 32", "Fig. 33", "Fig. 34", "Fig. 35", "Fig. 36"]
+    },
+    {
+      "id": "LIV-05.05",
+      "chapter": "Ch. 5",
+      "title": "Bernoulli's Spira mirabilis vs. Quarter-Circle Whirling-Square Arcs, Whirling Golden Triangles & Natural Spiral Audit",
+      "source_locus": "Ch. 5, pp. 116-123 (page-119.png .. page-126.png, Figs. 37-44)",
+      "field": "Q(phi)",
+      "status": "cataloged",
+      "category": "geometry-and-audit",
+      "verdict": "Refuted phi-specificity in Nautilus pompilius, horns, peregrine falcon 40 deg stoop (Tucker 2000), and M51 galaxy (general logarithmic spirals, not phi); forensic note: Fig. 40 draws inscribed quarter-circles while Fig. 41 shows true circumscribed logarithmic spiral",
+      "figures": ["Fig. 37", "Fig. 38", "Fig. 39", "Fig. 40", "Fig. 41", "Fig. 42", "Fig. 43", "Fig. 44"]
+    },
+    {
+      "id": "LIV-06.01",
+      "chapter": "Ch. 6",
+      "title": "Piero della Francesca's Perspective Pentagon, Libellus Polyhedra & Five-Circle Packing Ratio sqrt(3 - phi) / (2 + sqrt(3 - phi))",
+      "source_locus": "Ch. 6, pp. 126-130, 135 (page-129.png .. page-133.png, page-138.png, Figs. 48-49)",
+      "field": "Q(phi, sqrt(3 - phi))",
+      "status": "verified",
+      "category": "theorem-and-audit",
+      "verdict": "Confirmed Intentional (including Vasari & Mancini proof of Pacioli's plagiarism of Piero's Libellus)",
+      "figures": ["Fig. 48", "Fig. 49"],
+      "verifier": "verify_piero_five_circle_packing"
+    },
+    {
+      "id": "LIV-06.02",
+      "chapter": "Ch. 6",
+      "title": "Luca Pacioli's De Divina Proportione (1509), Rhombicuboctahedron Portrait & Vitruvian Rational Body Proportions",
+      "source_locus": "Ch. 6, pp. 130-136 (page-133.png .. page-139.png, Fig. 50)",
+      "field": "Q(phi)",
+      "status": "cataloged",
+      "category": "historical-audit",
+      "verdict": "Confirmed geometry in polyhedra; Refuted Myth that Pacioli advocated Golden Ratio human-body proportions (he taught rational Vitruvian fractions 1/10, 1/8)",
+      "figures": ["Fig. 50"]
+    },
+    {
+      "id": "LIV-06.03",
+      "chapter": "Ch. 6",
+      "title": "Leonardo da Vinci's 60 Vacuus/Solidus Polyhedra (Confirmed) vs. Vitruvian Man Golden Ratio Myth (Refuted)",
+      "source_locus": "Ch. 6, pp. 132-136 (page-135.png .. page-139.png, Figs. 51-53)",
+      "field": "Q(phi)",
+      "status": "cataloged",
+      "category": "historical-audit",
+      "verdict": "60 polyhedral plates Confirmed Intentional (1496-1498); Vitruvian Man (ca. 1490) Refuted Myth (strictly rational Vitruvian fractions)",
+      "figures": ["Fig. 51", "Fig. 52", "Fig. 53"]
+    },
+    {
+      "id": "LIV-06.04",
+      "chapter": "Ch. 6",
+      "title": "Albrecht Durer's Dodecahedron Net, Melencolia I 34 = F_9 Magic Square & Refutation of 72 deg 'Durer's Solid'",
+      "source_locus": "Ch. 6, pp. 138-142, 156 (page-141.png .. page-145.png, page-159.png, Figs. 54-57, 67)",
+      "field": "Q(phi)",
+      "status": "cataloged",
+      "category": "construction-and-audit",
+      "verdict": "Pentagon/net constructions Confirmed Intentional; 'Durer's solid' as phi-rhombohedron Refuted Myth (Lynch 1982 & MacGillavry proved 80 deg truncated rhombohedron)",
+      "figures": ["Fig. 54", "Fig. 55", "Fig. 56", "Fig. 57", "Fig. 67"]
+    },
+    {
+      "id": "LIV-06.05",
+      "chapter": "Ch. 6",
+      "title": "Johannes Kepler's Mysterium Cosmographicum, 1:sqrt(phi):phi Triangle (1597), Cassini/Sam Loyd 64=65 Dissection & Harmonices Mundi Tilings",
+      "source_locus": "Ch. 6, pp. 142-158 (page-145.png .. page-161.png, Figs. 58-66)",
+      "field": "Q(sqrt(phi))",
+      "status": "verified",
+      "category": "theorem-and-construction",
+      "verdict": "Confirmed Intentional (1597 letter to Maestlin, 1608/1611 Fibonacci limit & Cassini identity, 1619 pentagonal/pentagrammic tilings)",
+      "figures": ["Fig. 58", "Fig. 59", "Fig. 60", "Fig. 61", "Fig. 62", "Fig. 63", "Fig. 64", "Fig. 65", "Fig. 66"],
+      "verifier": "verify_kepler_triangle"
+    },
+    {
+      "id": "LIV-07.01",
+      "chapter": "Ch. 7",
+      "title": "Fine-Art Golden Ratio Audit: Leonardo, Trecento, Seurat & Mondrian (Refuted) vs. Serusier, Lipchitz, Severini & Dali (Confirmed)",
+      "source_locus": "Ch. 1 p. 8; Ch. 7, pp. 160-178 (page-163.png .. page-181.png, Figs. 5, 70-78, 82-83)",
+      "field": "Q(phi)",
+      "status": "cataloged",
+      "category": "historical-audit",
+      "verdict": "Mona Lisa, Madonna of the Rocks, St. Jerome, Seurat's Parade, 1912 Section d'Or canvases & Mondrian Refuted; Serusier, Lipchitz/Gris Arlequin, Severini Maternity, Dali Last Supper, Hill, Tumarkin & Merz Confirmed Intentional; Leonardo Head of an Old Man Plausible/Open",
+      "figures": ["Fig. 5", "Fig. 70", "Fig. 71", "Fig. 72", "Fig. 73", "Fig. 74", "Fig. 75", "Fig. 76", "Fig. 77", "Fig. 78", "Fig. 82", "Fig. 83"]
+    },
+    {
+      "id": "LIV-07.02",
+      "chapter": "Ch. 7",
+      "title": "Le Corbusier's Modulor System: Red (113 cm * phi^k) & Blue (226 cm * phi^k) Coupled Architectural Scales",
+      "source_locus": "Ch. 7, pp. 172-175 (page-175.png .. page-178.png, Figs. 79-81)",
+      "field": "Q(phi)",
+      "status": "cataloged",
+      "category": "construction-and-audit",
+      "verdict": "Pre-1927 Purist phi claims Refuted (Herz-Fischler 1984); post-1945 Modulor Confirmed Intentional",
+      "figures": ["Fig. 79", "Fig. 80", "Fig. 81"]
+    },
+    {
+      "id": "LIV-07.03",
+      "chapter": "Ch. 7",
+      "title": "Rectangle Aesthetics Psychophysics Audit: Fechner (1876) vs. Godkewitsch, McManus & Markowsky's 48-Rectangle Array",
+      "source_locus": "Ch. 7, pp. 178-183 (page-181.png .. page-186.png, Fig. 84)",
+      "field": "Q(phi)",
+      "status": "cataloged",
+      "category": "empirical-audit",
+      "verdict": "Refuted Myth (stimulus-range artifact & unpublished negative ellipse test; no unique human preference for 1.618 over 1.5-1.75)",
+      "figures": ["Fig. 84"]
+    },
+    {
+      "id": "LIV-07.04",
+      "chapter": "Ch. 7",
+      "title": "Musicology Audit: Stradivari f-Holes, Equal Temperament 2^(1/12) ~ 3^(1/19), Putz on Mozart, Lendvai-Somfai on Bartok, Howat on Debussy & Schillinger",
+      "source_locus": "Ch. 7, pp. 183-194 (page-186.png .. page-197.png, Figs. 85-90)",
+      "field": "Q(phi)",
+      "status": "cataloged",
+      "category": "music-audit",
+      "verdict": "Stradivari shop f-hole placement & Schillinger Fibonacci leaps Confirmed; Stradivari acoustic secret, 13-key piano myth, Gregorian chant, Mozart sonatas (Putz 1995) & Messiaen Refuted; Bartok & Debussy Plausible/Open",
+      "figures": ["Fig. 85", "Fig. 86", "Fig. 87", "Fig. 88", "Fig. 89", "Fig. 90"]
+    },
+    {
+      "id": "LIV-07.05",
+      "chapter": "Ch. 7",
+      "title": "Virahanka-Gopala-Hemacandra Sanskrit Prosody (Confirmed) & Curchin-Herz-Fischler M/(M + m) Compression Refutation of Duckworth's Aeneid",
+      "source_locus": "Ch. 7, pp. 195-200 (page-198.png .. page-203.png, Fig. 91)",
+      "field": "Q(phi)",
+      "status": "verified",
+      "category": "theorem-and-audit",
+      "verdict": "Sanskrit matra-vrtta recurrence prior to Fibonacci Confirmed (Singh 1985); Duckworth's Vergil Aeneid study Refuted mathematically via |M/(M+m) - 1/phi| = |m/M - 1/phi| / (phi*(1 + m/M))",
+      "figures": ["Fig. 91"],
+      "verifier": "verify_major_to_whole_compression"
+    },
+    {
+      "id": "LIV-08.01",
+      "chapter": "Ch. 8",
+      "title": "Crystallographic Restriction, Penrose Aperiodic Kites & Darts / Golden Rhombi & Ammann 3D Golden Rhombohedra",
+      "source_locus": "Ch. 8, pp. 201-208 (page-204.png .. page-210.png, Figs. 92-107)",
+      "field": "Q(phi, sqrt(3 - phi))",
+      "status": "verified",
+      "category": "theorem",
+      "figures": ["Fig. 92", "Fig. 93", "Fig. 94", "Fig. 95", "Fig. 96", "Fig. 97", "Fig. 98", "Fig. 99", "Fig. 100", "Fig. 105", "Fig. 106", "Fig. 107"],
+      "verifier": "verify_penrose_kite_and_dart"
+    },
+    {
+      "id": "LIV-08.02",
+      "chapter": "Ch. 8",
+      "title": "Gummelt Single-Decagon Overlapping Covering (1996) & Shechtman-Steinhardt Quasicrystals with STM Phi-Terrace Steps",
+      "source_locus": "Ch. 8, pp. 208-213 (page-210.png .. page-215.png, Figs. 108-112)",
+      "field": "Q(phi)",
+      "status": "cataloged",
+      "category": "physics",
+      "verdict": "Confirmed experimentally (Shechtman 1984 Al-Mn tenfold diffraction, Steinhardt & Jeong 1998, STM terrace step heights in ratio phi)",
+      "figures": ["Fig. 108", "Fig. 109", "Fig. 110", "Fig. 111", "Fig. 112"]
+    },
+    {
+      "id": "LIV-08.03",
+      "chapter": "Ch. 8",
+      "title": "Sturmian Golden Substitution Sequence (1 -> 10, 0 -> 1) & Nonperiodic Frequency Limit phi",
+      "source_locus": "Ch. 8, p. 209 (page-211.png)",
+      "field": "Q(phi)",
+      "status": "verified",
+      "category": "theorem",
+      "verifier": "golden_sequence_word"
+    },
+    {
+      "id": "LIV-08.04",
+      "chapter": "Ch. 8",
+      "title": "Golden Self-Contacting Fractal Tree (120 deg Split, f = 1/phi, D = log(2)/log(phi)) & Corner-Sprouting Square/Triangle Fractals",
+      "source_locus": "Ch. 8, pp. 214-222 (page-216.png .. page-224.png, Figs. 113-122); Apps. 7-8",
+      "field": "Q(phi)",
+      "status": "verified",
+      "category": "theorem",
+      "figures": ["Fig. 113", "Fig. 114", "Fig. 115", "Fig. 116", "Fig. 117", "Fig. 118", "Fig. 119", "Fig. 120", "Fig. 121", "Fig. 122"],
+      "verifier": "verify_golden_fractal_tree_contact"
+    },
+    {
+      "id": "LIV-08.05",
+      "chapter": "Ch. 8",
+      "title": "Elliott Wave Stock-Market Critique vs. Mandelbrot Multifractal Finance & Divakar Viswanath's Random Fibonacci Constant (1.13198824...)",
+      "source_locus": "Ch. 8, pp. 223-228 (page-225.png .. page-230.png, Figs. 123-127)",
+      "field": "Transcendental / Furstenberg-Stern-Brocot",
+      "status": "cataloged",
+      "category": "theorem-and-audit",
+      "verdict": "Deterministic Fibonacci Elliott Wave predictions Refuted empirically; Viswanath (1999) Lyapunov growth rate 1.13198824... Confirmed rigorously",
+      "figures": ["Fig. 123", "Fig. 124", "Fig. 125", "Fig. 126", "Fig. 127"]
+    },
+    {
+      "id": "LIV-09.01",
+      "chapter": "Ch. 9",
+      "title": "Newcomb-Benford First-Digit Law log_10(1 + 1/D), Ted Hill's Theorem (1995) & Exact Benford Distribution of Fibonacci Numbers",
+      "source_locus": "Ch. 9, pp. 232-236 (page-234.png .. page-238.png, Fig. 128); App. 9",
+      "field": "Q(phi)",
+      "status": "verified",
+      "category": "theorem",
+      "figures": ["Fig. 128"],
+      "verifier": "verify_benford_exact_identities"
+    },
+    {
+      "id": "LIV-09.02",
+      "chapter": "Ch. 9",
+      "title": "Fibonacci Primes Necessary Index Condition (F_k Prime and k != 4 => k Prime; Counterexample F_19 = 37 * 113)",
+      "source_locus": "Ch. 9, pp. 237-238 (page-239.png .. page-240.png); App. 10",
+      "field": "Q",
+      "status": "cataloged",
+      "category": "theorem"
+    },
+    {
+      "id": "LIV-09.03",
+      "chapter": "Ch. 9",
+      "title": "Wigner's 'Unreasonable Effectiveness' & Livio's Invention-Discovery Epistemological Complementarity",
+      "source_locus": "Ch. 9, pp. 238-253 (page-240.png .. page-255.png)",
+      "field": "Philosophy of Mathematics",
+      "status": "cataloged",
+      "category": "epistemology"
+    },
+    {
+      "id": "LIV-APP.01",
+      "chapter": "App. 1",
+      "title": "Appendix 1: Proof of Primitive Pythagorean Triple Generator (p^2 - q^2, 2pq, p^2 + q^2)",
+      "source_locus": "App. 1, p. 255 (page-256.png)",
+      "field": "Q",
+      "status": "verified",
+      "category": "appendix-proof",
+      "verifier": "verify_pythagorean_triple_identity"
+    },
+    {
+      "id": "LIV-APP.02",
+      "chapter": "App. 2",
+      "title": "Appendix 2: Pentagram Infinite-Descent Proof of the Irrationality of Phi (d_2 = d_1 - s_1, s_2 = s_1 - d_2)",
+      "source_locus": "App. 2, pp. 256-257 (page-257.png)",
+      "field": "Q(phi)",
+      "status": "verified",
+      "category": "appendix-proof",
+      "verifier": "verify_pentagram_descent_step"
+    },
+    {
+      "id": "LIV-APP.03",
+      "chapter": "App. 3",
+      "title": "Appendix 3: Pyramid Face-Area = Height-Squared Quadratic Proof (h^2 = s*a => (s/a)^2 - (s/a) - 1 = 0)",
+      "source_locus": "App. 3, pp. 258-259 (page-258.png .. page-259.png)",
+      "field": "Q(sqrt(phi))",
+      "status": "verified",
+      "category": "appendix-proof",
+      "verifier": "verify_pyramid_herodotus_and_seked"
+    },
+    {
+      "id": "LIV-APP.04",
+      "chapter": "App. 4",
+      "title": "Appendix 4: Similarity Proof of 36-72-72 Golden Triangle Base Angle Bisector (BC / AB = phi)",
+      "source_locus": "App. 4, pp. 259-260 (page-259.png .. page-260.png)",
+      "field": "Q(phi)",
+      "status": "verified",
+      "category": "appendix-proof",
+      "verifier": "verify_golden_triangle_similarity"
+    },
+    {
+      "id": "LIV-APP.05",
+      "chapter": "App. 5",
+      "title": "Appendix 5: Completing-the-Square Derivation of the Quadratic Formula & Roots of x^2 - x - 1 = 0",
+      "source_locus": "App. 5, pp. 261-262 (page-261.png .. page-262.png)",
+      "field": "Q(phi)",
+      "status": "verified",
+      "category": "appendix-proof"
+    },
+    {
+      "id": "LIV-APP.06",
+      "chapter": "App. 6",
+      "title": "Appendix 6: Algebraic Solution of Fibonacci's Seven-Son Bezant Inheritance Problem (E = 36, x = 6)",
+      "source_locus": "App. 6, pp. 262-263 (page-262.png .. page-263.png)",
+      "field": "Q",
+      "status": "verified",
+      "category": "appendix-proof",
+      "verifier": "verify_fibonacci_identities"
+    },
+    {
+      "id": "LIV-APP.07",
+      "chapter": "App. 7",
+      "title": "Appendix 7: Self-Similarity Fractal Dimension D = -log(n) / log(f) & Koch Curve D = log(4) / log(3)",
+      "source_locus": "App. 7, pp. 264-265 (page-264.png .. page-265.png)",
+      "field": "Exact Logarithmic",
+      "status": "cataloged",
+      "category": "appendix-proof"
+    },
+    {
+      "id": "LIV-APP.08",
+      "chapter": "App. 8",
+      "title": "Appendix 8: Geometric Series Proof of 120 deg Golden Fractal Tree Critical Self-Contact (f = f^3 / (1 - f) => f = 1/phi)",
+      "source_locus": "App. 8, pp. 265-266 (page-265.png .. page-266.png)",
+      "field": "Q(phi)",
+      "status": "verified",
+      "category": "appendix-proof",
+      "verifier": "verify_golden_fractal_tree_contact"
+    },
+    {
+      "id": "LIV-APP.09",
+      "chapter": "App. 9",
+      "title": "Appendix 9: Scale-Invariant Logarithmic Derivation of Benford's Law P(D) = log_10(1 + 1/D)",
+      "source_locus": "App. 9, pp. 266-267 (page-266.png .. page-267.png)",
+      "field": "Exact Logarithmic",
+      "status": "verified",
+      "category": "appendix-proof",
+      "verifier": "verify_benford_exact_identities"
+    },
+    {
+      "id": "LIV-APP.10",
+      "chapter": "App. 10",
+      "title": "Appendix 10: Euclid Book IX Prop. 20 Proof of the Infinitude of Prime Numbers (p_1 * ... * p_n + 1)",
+      "source_locus": "App. 10, pp. 267-268 (page-267.png .. page-268.png)",
+      "field": "Q",
+      "status": "cataloged",
+      "category": "appendix-proof"
+    }
+  ]
+}

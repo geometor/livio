@@ -1,0 +1,3 @@
+Exact symbolic mathematical catalog, empirical myth-triage ledger, and 5-way concordance inspired by Mario Livio's *The Golden Ratio: The Story of Phi, the World's Most Astonishing Number* (Broadway Books, 2002).
+
+Structured across 48 atomic ``LIV-*`` entries (Chapters 1–9 and Appendices 1–10) under :ref:`livio-catalog`, verified with 100% exact ``SymPy`` arithmetic in ``geometor.livio.invariants``, and cross-indexed to ``divine``, ``huntley``, ``knott``, ``posamentier``, ``elements``, ``piero``, ``pacioli``, ``durer``, ``kepler``, ``polyhedra``, ``phyllotaxis``, ``thompson``, and ``trees`` alongside scholarly apparatus in :ref:`persons` and :ref:`bibliography`.

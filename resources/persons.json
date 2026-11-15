@@ -1,0 +1,106 @@
+{
+  "persons": [
+    {
+      "id": "mario-livio",
+      "name": "Mario Livio",
+      "dates": "b. June 19, 1945",
+      "role": "Primary Author (Astrophysicist, Space Telescope Science Institute; Technion)",
+      "work": "The Golden Ratio: The Story of Phi, the World's Most Astonishing Number (Broadway Books, 2002)"
+    },
+    {
+      "id": "euclid",
+      "name": "Euclid of Alexandria",
+      "dates": "fl. c. 300 BCE",
+      "role": "Geometer (Elements II.11, IV.10-11, VI.def.3, VI.30, IX.20, XIII)"
+    },
+    {
+      "id": "al-khwarizmi",
+      "name": "Muhammad ibn Musa al-Khwarizmi",
+      "dates": "c. 780 – c. 850",
+      "role": "Mathematician (Kitab al-Jabr, 10x = (10 - x)^2 Golden Division)"
+    },
+    {
+      "id": "abu-kamil",
+      "name": "Abu Kamil Shuja ibn Aslam",
+      "dates": "c. 850 – c. 930",
+      "role": "Mathematician ('The Egyptian Calculator'; 20 Pentagon & Decagon Radical Problems)"
+    },
+    {
+      "id": "hemacandra",
+      "name": "Acharya Hemacandra (with Virahanka & Gopala)",
+      "dates": "1088 – 1173",
+      "role": "Jain Polymath & Prosodist (Sanskrit matra-vrtta Recurrence Prior to Fibonacci)"
+    },
+    {
+      "id": "fibonacci",
+      "name": "Leonardo of Pisa (Fibonacci)",
+      "dates": "c. 1170 – c. 1250",
+      "role": "Mathematician (Liber abaci 1202/1228; Practica geometriae; Liber quadratorum 1225)"
+    },
+    {
+      "id": "piero-della-francesca",
+      "name": "Piero della Francesca",
+      "dates": "c. 1415 – 1492",
+      "role": "Painter & Geometer (Trattato d'abaco; De prospectiva pingendi; Libellus de quinque corporibus regularibus)"
+    },
+    {
+      "id": "luca-pacioli",
+      "name": "Fra Luca Bartolomeo de Pacioli",
+      "dates": "c. 1447 – 1517",
+      "role": "Franciscan Mathematician (De Divina Proportione, Venice, 1509)"
+    },
+    {
+      "id": "johannes-kepler",
+      "name": "Johannes Kepler",
+      "dates": "1571 – 1630",
+      "role": "Astronomer & Geometer (Mysterium Cosmographicum 1596; 1:sqrt(phi):phi Triangle 1597; Strena 1611; Harmonices Mundi 1619)"
+    },
+    {
+      "id": "martin-ohm",
+      "name": "Martin Ohm",
+      "dates": "1792 – 1872",
+      "role": "Mathematician (First Attested Print Coinage of 'Goldener Schnitt', 1835)"
+    },
+    {
+      "id": "mark-barr",
+      "name": "Mark Barr",
+      "dates": "1871 – 1950",
+      "role": "Mathematician & Engineer (Coined Symbol phi after Phidias, early 20th c.)"
+    },
+    {
+      "id": "roger-herz-fischler",
+      "name": "Roger Herz-Fischler",
+      "dates": "b. 1940",
+      "role": "Historian of Mathematics (A Mathematical History of the Golden Number, 1987/1998; M/(M+m) Compression Refutation)"
+    },
+    {
+      "id": "george-markowsky",
+      "name": "George Markowsky",
+      "dates": "Contemporary",
+      "role": "Mathematician ('Misconceptions about the Golden Ratio', 1992; Pyramid, Parthenon & 48-Rectangle Audits)"
+    },
+    {
+      "id": "roger-penrose",
+      "name": "Sir Roger Penrose",
+      "dates": "b. 1931",
+      "role": "Mathematical Physicist (Fivefold Aperiodic Kite-and-Dart & Golden-Rhombus Tilings, 1973-1974)"
+    },
+    {
+      "id": "dan-shechtman",
+      "name": "Dan Shechtman (with Paul J. Steinhardt & Dov Levine)",
+      "dates": "b. 1941",
+      "role": "Materials Scientist (1984 Discovery of Tenfold Icosahedral Quasicrystals)"
+    },
+    {
+      "id": "divakar-viswanath",
+      "name": "Divakar Viswanath",
+      "dates": "Contemporary",
+      "role": "Applied Mathematician (Random Fibonacci Sequence Constant 1.13198824..., 1999)"
+    },
+    {
+      "id": "phi-architect",
+      "name": "phi ARCHITECT",
+      "role": "GEOMETOR Curator & Symbolic Modeler"
+    }
+  ]
+}
