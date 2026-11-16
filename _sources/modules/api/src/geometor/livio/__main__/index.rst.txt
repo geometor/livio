@@ -1,0 +1,11 @@
+src.geometor.livio.__main__
+===========================
+
+.. py:module:: src.geometor.livio.__main__
+
+.. autoapi-nested-parse::
+
+   Package entry point for ``python -m geometor.livio``.
+
+
+

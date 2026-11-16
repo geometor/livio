@@ -1,0 +1,182 @@
+src.geometor.livio.invariants
+=============================
+
+.. py:module:: src.geometor.livio.invariants
+
+.. autoapi-nested-parse::
+
+   Exact symbolic verification of theorems, appendices, and residuals in ``geometor.livio``.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   src.geometor.livio.invariants.PHI
+   src.geometor.livio.invariants.PHI_CONJ
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.livio.invariants.verify_pythagorean_triple_identity
+   src.geometor.livio.invariants.verify_pentagram_descent_step
+   src.geometor.livio.invariants.verify_recreational_666_identity
+   src.geometor.livio.invariants.verify_susa_pentagon_area
+   src.geometor.livio.invariants.verify_pyramid_herodotus_and_seked
+   src.geometor.livio.invariants.verify_platonic_icosa_dodec_metrics
+   src.geometor.livio.invariants.verify_golden_triangle_similarity
+   src.geometor.livio.invariants.verify_alkhwarizmi_ten_division
+   src.geometor.livio.invariants.verify_fibonacci_identities
+   src.geometor.livio.invariants.verify_piero_five_circle_packing
+   src.geometor.livio.invariants.verify_kepler_triangle
+   src.geometor.livio.invariants.verify_major_to_whole_compression
+   src.geometor.livio.invariants.verify_penrose_kite_and_dart
+   src.geometor.livio.invariants.golden_sequence_word
+   src.geometor.livio.invariants.verify_golden_fractal_tree_contact
+   src.geometor.livio.invariants.verify_benford_exact_identities
+
+
+Module Contents
+---------------
+
+.. py:data:: PHI
+   :type:  sympy.Expr
+
+.. py:data:: PHI_CONJ
+   :type:  sympy.Expr
+
+.. py:function:: verify_pythagorean_triple_identity() -> sympy.Expr
+
+   Verify Appendix 1: ``(p^2 - q^2)^2 + (2pq)^2 == (p^2 + q^2)^2``.
+
+   :returns: Exact symbolic zero residual after algebraic expansion.
+
+
+.. py:function:: verify_pentagram_descent_step() -> tuple[sympy.Expr, sympy.Expr]
+
+   Verify Appendix 2: nested pentagram infinite-descent step preserves ``phi``.
+
+   Given outer regular pentagon side ``s1`` and diagonal ``d1 = phi * s1``,
+   the inner pentagon formed by the five diagonals has diagonal ``d2 = d1 - s1``
+   and side ``s2 = s1 - d2``.
+
+   :returns: Tuple ``(d2 / s2, s2 / s1)`` simplified to ``(PHI, 1 / PHI**2)``.
+
+
+.. py:function:: verify_recreational_666_identity() -> sympy.Expr
+
+   Verify Ch. 2 trigonometric identity ``sin(666 deg) + cos(216 deg) == -phi``.
+
+   :returns: Exact simplified sum ``-PHI``.
+
+
+.. py:function:: verify_susa_pentagon_area() -> dict[str, sympy.Expr]
+
+   Verify Ch. 3 Old Babylonian Susa pentagon constant ``5/3`` vs. exact unit-pentagon area.
+
+   :returns: Dictionary of exact symbolic expressions for ``exact_area``, ``livio_phi_form``,
+             and ``susa_area``.
+
+
+.. py:function:: verify_pyramid_herodotus_and_seked() -> dict[str, sympy.Expr]
+
+   Verify Appendix 3 pyramid quadratic and Ch. 3 Egyptian 5.5-palm ``seked`` metrics.
+
+   :returns: Dictionary of exact symbolic slopes and slant ratios (zero floats).
+
+
+.. py:function:: verify_platonic_icosa_dodec_metrics() -> dict[str, sympy.Expr]
+
+   Verify Ch. 4 unit-edge dodecahedron/icosahedron surface, volume, and dual ratios.
+
+   :returns: Dictionary of verified exact ``Q(phi)`` and radical expressions.
+
+
+.. py:function:: verify_golden_triangle_similarity() -> tuple[sympy.Expr, sympy.Expr]
+
+   Verify Appendix 4 Golden Triangle (36-72-72) angle-bisector ratio and cosines.
+
+   :returns: Exact symbolic tuple ``(cos(36 deg), cos(72 deg))`` equal to ``(PHI/2, 1/(2*PHI))``.
+
+
+.. py:function:: verify_alkhwarizmi_ten_division() -> sympy.Expr
+
+   Verify Ch. 4 al-Khwarizmi quadratic ``10*x = (10 - x)^2`` gives ``10 / phi^2``.
+
+   :returns: Exact shorter Golden Ratio segment ``15 - 5*sqrt(5) == 10 / PHI**2``.
+
+
+.. py:function:: verify_fibonacci_identities() -> dict[str, sympy.Expr | tuple[sympy.Rational, ...]]
+
+   Verify Ch. 5 & Appendix 6 Fibonacci identities, bezant shares, and congruent squares.
+
+   :returns: Dictionary of verified exact values and symbolic residuals.
+
+
+.. py:function:: verify_piero_five_circle_packing() -> sympy.Expr
+
+   Verify Ch. 6 Piero della Francesca 5-circle packing ratio inside a unit-diameter circle.
+
+   :returns: Exact small-to-large circle diameter ratio ``sqrt(3 - phi) / (2 + sqrt(3 - phi))``.
+
+
+.. py:function:: verify_kepler_triangle() -> dict[str, sympy.Expr]
+
+   Verify Ch. 6 Kepler Triangle (Oct 1597 letter to Maestlin, ``Fig. 61``).
+
+   Dividing hypotenuse ``AB`` at altitude foot ``D`` with ``AD = phi`` and ``DB = 1``
+   gives ``AB = phi^2``, altitude ``CD = sqrt(phi)``, legs ``CB = phi`` and
+   ``AC = phi * sqrt(phi)``, and normalized geometric progression ``(1, sqrt(phi), phi)``.
+
+   :returns: Dictionary of exact symbolic segment lengths and Pythagorean residual.
+
+
+.. py:function:: verify_major_to_whole_compression(major: int = 317, minor: int = 160) -> dict[str, sympy.Expr]
+
+   Verify Ch. 7 Curchin & Herz-Fischler (1981) ``M / (M + m)`` compression identity.
+
+   For any ``M > m > 0`` with ``r = m / M``, ``M / (M + m) - 1 / phi`` equals
+   ``(1 / phi - r) / (phi * (1 + r))``, shrinking the distance to ``1 / phi`` by an
+   exact factor ``phi * (1 + m / M) > phi > 1`` (Livio ``Fig. 91``, ``M = 317, m = 160``).
+
+   :param major: Positive integer major line/measure count ``M``.
+   :param minor: Positive integer minor line/measure count ``m`` with ``0 < m < M``.
+
+   :returns: Dictionary of exact rational ratios, deviations from ``1 / phi``, and compression factor.
+
+
+.. py:function:: verify_penrose_kite_and_dart() -> dict[str, sympy.Expr]
+
+   Verify Ch. 8 Penrose kite and dart area ratio ``phi`` and rhombus partition.
+
+   :returns: Dictionary with exact areas of kite, dart, and parent ``72-108`` rhombus of side ``phi``.
+
+
+.. py:function:: golden_sequence_word(generations: int = 6) -> str
+
+   Generate the Ch. 8 Sturmian Golden Sequence via substitution ``1 -> 10, 0 -> 1``.
+
+   :param generations: Number of morphism iterations starting from ``"1"`` (generation ``1``).
+
+   :returns: Exact binary Sturmian prefix of length ``F_{generations + 1}``.
+
+
+.. py:function:: verify_golden_fractal_tree_contact() -> tuple[sympy.Expr, sympy.Expr]
+
+   Verify Appendix 8 Golden Fractal Tree self-contact factor ``1/phi`` and dimension.
+
+   :returns: Tuple ``(f_contact, hausdorff_dimension)`` equal to ``(1/PHI, log(2)/log(PHI))``.
+
+
+.. py:function:: verify_benford_exact_identities() -> sympy.Expr
+
+   Verify Appendix 9 exact telescoping sum of Benford first-digit probabilities equals ``1``.
+
+   :returns: Exact simplified sum ``sum_{d=1}^9 log_10(1 + 1/d) == 1``.
+
+
