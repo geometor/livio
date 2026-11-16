@@ -1,36 +1,36 @@
-=====
-livio
-=====
+GEOMETOR • livio
+================
 
-Exact symbolic mathematical catalog, empirical myth-triage ledger, and 5-way golden-ratio concordance inspired by Mario Livio's *The Golden Ratio: The Story of Phi, the World's Most Astonishing Number* (Broadway Books, 2002).
+**Visit the Online Archive:** https://geometor.github.io/livio/
 
-Catalog Overview
-----------------
+**Mario Livio • The Golden Ratio & Myth Triage • semantic digital archive**
 
-- **Reference Work**: *The Golden Ratio: The Story of Phi, the World's Most Astonishing Number* (Mario Livio, Broadway Books, 2002/2003, ISBN ``978-0-7679-0816-0``)
-- **Catalog Track**: ``docsrc/catalog/`` (``:layout: book``) — 9 Chapters + 10 Mathematical Appendices (``LIV-01.01``–``LIV-09.03``, ``LIV-APP.01``–``LIV-APP.10``, 48 atomic entries)
-- **Exact Symbolic Engine**: ``src/geometor/livio/invariants.py`` — 100% exact ``SymPy`` verifiers (pentagram descent, Susa ``5/3`` vs. exact pentagon area, Khufu ``14/11`` *seked* vs. Herodotus quadratic, Platonic solid ``Q(phi)`` volumes & duals, al-Khwarizmi ``10/phi^2``, Fibonacci/bezant/congruent-square identities, Piero della Francesca 5-circle packing, Kepler's ``1:sqrt(phi):phi`` triangle, Curchin–Herz-Fischler ``M/(M+m)`` compression identity, Penrose kites & darts, Sturmian Golden Sequence, ``120 deg`` Golden Fractal Tree ``f = 1/phi``, and Benford's Law)
-- **5-Way Concordance**: ``resources/concordance.json`` cross-referencing ``divine``, ``huntley``, ``knott``, ``livio``, and ``posamentier``
+Mission
+-------
 
-Verification & Build
---------------------
+``geometor/livio`` is part of the interconnected `GEOMETOR <https://geometor.com>`_ semantic digital archive. It formalizes Mario Livio's landmark treatise *The Golden Ratio: The Story of Phi, the World's Most Astonishing Number* (2002) into an exact symbolic mathematical catalog, empirical myth-triage ledger, and cross-corpus concordance. By distinguishing mathematically verified golden theorems from numerological fallacies through exact SymPy invariants over :math:`\mathbb{Q}(\phi)`, the archive liberates historical and aesthetic claims into rigorously testable units across the GEOMETOR corpus.
 
-Managed with ``uv`` on Python 3.13:
+Catalogs in This Archive
+------------------------
+
+- **`The Golden Ratio — Mathematical Catalog, Myth Triage & Concordance <https://geometor.github.io/livio/catalog/>`_** — Exact symbolic catalog across nine chapters and ten mathematical appendices, featuring 48 verified entries and cross-corpus concordance.
+
+Repository Contents
+-------------------
+
+- ``docsrc/`` — RST catalog tracks, myth-triage ledgers, and guides compiled by `PHOTON publish <https://github.com/photon-platform/publish>`_.
+- ``resources/`` — Curated mathematical manifests and 5-way concordance registries.
+- ``src/geometor/livio/`` — Exact symbolic verifiers, invariant engines, and CLI tools.
+
+Local Build & Verification
+--------------------------
 
 .. code-block:: bash
 
-   /home/phi/PROJECTS/geometor/.venv/bin/python -m pytest -v
-   ruff check src tests demos
    publish build
+   uv run --no-sync pytest
 
-Links
------
+Part of the GEOMETOR Knowledge Archive
+--------------------------------------
 
-- **Documentation**: https://geometor.github.io/livio
-- **Repository**: https://github.com/geometor/livio
-- **Issues**: https://github.com/geometor/livio/issues
-
-License
--------
-
-Licensed under the MIT License. See ``LICENSE`` for details.
+Explore all **74 Book Codices** and **11 Mathematical Catalogs** at https://geometor.com/books/.
