@@ -15,16 +15,6 @@ Catalogs in This Archive
 
 - `The Golden Ratio — Mathematical Catalog, Myth Triage & Concordance <https://geometor.github.io/livio/catalog/>`_ — Exact symbolic catalog across nine chapters and ten mathematical appendices, featuring 48 verified entries and cross-corpus concordance.
 
-Python Package & Modules
-------------------------
-
-The ``geometor-livio`` Python package (``import geometor.livio``) provides the executable symbolic geometry, construction, and compilation modules powering this archive:
-
-- ``catalog.py`` — Catalog manifest loader and exact-symbolic validation helpers.
-- ``invariants.py`` — Exact symbolic verification of theorems, appendices, and residuals in ``geometor.livio``.
-- ``app.py`` — Command-line interface for ``geometor.livio``.
-
-See the `API Reference <https://geometor.github.io/livio/modules/>`_ for full module documentation.
 
 Repository Contents
 -------------------
