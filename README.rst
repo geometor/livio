@@ -13,7 +13,7 @@ Mission
 Catalogs in This Archive
 ------------------------
 
-- **`The Golden Ratio — Mathematical Catalog, Myth Triage & Concordance <https://geometor.github.io/livio/catalog/>`_** — Exact symbolic catalog across nine chapters and ten mathematical appendices, featuring 48 verified entries and cross-corpus concordance.
+- `The Golden Ratio — Mathematical Catalog, Myth Triage & Concordance <https://geometor.github.io/livio/catalog/>`_ — Exact symbolic catalog across nine chapters and ten mathematical appendices, featuring 48 verified entries and cross-corpus concordance.
 
 Repository Contents
 -------------------
