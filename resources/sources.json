@@ -1,0 +1,22 @@
+{
+  "repository": "geometor/livio",
+  "rights_category": "non-derivative-catalog",
+  "sources": [
+    {
+      "id": "livio-2002-golden-ratio",
+      "title": "The Golden Ratio: The Story of Phi, the World's Most Astonishing Number (2002)",
+      "author": "Mario Livio",
+      "year": "2002",
+      "era": "17 U.S.C. § 102(b) Catalog",
+      "languages": [
+        "English"
+      ],
+      "site_url": "https://geometor.github.io/livio/",
+      "local_path": "resources/pdfs/livio_2002_golden_ratio.pdf",
+      "pages": 268,
+      "publisher": "Broadway Books, New York (ISBN 978-0-7679-0816-0)",
+      "rights": "Modern Copyright (2002) — git-ignored study input; geometor/livio is an independent factual catalog",
+      "excerpt": "268-page study copy (omits print pp. 103, 108, 205, 256); indexed as a non-derivative symbolic catalog."
+    }
+  ]
+}
