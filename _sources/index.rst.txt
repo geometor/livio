@@ -8,6 +8,10 @@
 Mario Livio
 ===========
 
+.. image:: _static/medallion.svg
+   :alt: Mario Livio Medallion
+   :class: repo-medallion-hero
+
 The mathematical catalog formalizes the historical investigations and exact algebraic invariants inspired by :person:`Mario Livio`'s treatise *The Golden Ratio: The Story of Phi, the World's Most Astonishing Number* (2002). Within the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive, these studies are liberated into exact symbolic models over $\mathbb{Q}(\phi)$, empirical myth-triage ledgers, and multi-corpus concordances speaking one shared geometric language.
 
 .. reference-directory::
