@@ -3,6 +3,17 @@ GEOMETOR • livio
 
 **Visit the Online Archive:** https://geometor.github.io/livio/
 
+.. image:: docsrc/_static/logo.png
+   :alt: GEOMETOR • livio Medallion
+   :target: https://geometor.github.io/livio/
+   :width: 180px
+   :align: center
+
+.. image:: docsrc/_static/social/banner.png
+   :alt: GEOMETOR • livio featured graphic
+   :target: https://geometor.github.io/livio/
+   :align: center
+
 **Mario Livio • The Golden Ratio & Myth Triage • semantic digital archive**
 
 Mission
