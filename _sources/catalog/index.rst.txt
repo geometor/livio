@@ -6,6 +6,8 @@
 :layout: book
 :book_title: The Golden Ratio — Mathematical Catalog, Myth Triage & Concordance
 :author: Mario Livio (2002) · Exact Synthesis by GEOMETOR
+:year: 2002
+:edition_year: 2026
 :excerpt: A 48-entry exact symbolic mathematical catalog, empirical myth-triage ledger, and cross-corpus concordance inspired by Mario Livio's The Golden Ratio: The Story of Phi, the World's Most Astonishing Number.
 
 .. _livio-catalog:
