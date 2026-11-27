@@ -12,7 +12,7 @@ Mario Livio
    :alt: Mario Livio Medallion
    :class: repo-medallion-hero
 
-Astrophysicist **Mario Livio** brought a keen historical and scientific lens to *The Golden Ratio: The Story of Phi, the World's Most Astonishing Number* (2002), separating genuine mathematical elegance from centuries of numerological legend. Alongside real theorems spanning Hippasus's pentagram descent, Piero della Francesca's polyhedra, Penrose quasicrystals, and Benford's Law, Livio rigorously audited popular claims about the Great Pyramid, the Parthenon, and Renaissance canvases. This mathematical catalog encodes his nine chapters and ten appendices into exact SymPy invariants over $\mathbb{Q}(\phi)$ paired with an empirical myth-triage ledger.
+Astrophysicist **Mario Livio** brought a keen historical and scientific lens to *The Golden Ratio: The Story of Phi, the World's Most Astonishing Number* (2002), separating genuine mathematical elegance from centuries of numerological legend. Alongside real theorems spanning Hippasus's pentagram descent, Piero della Francesca's polyhedra, Penrose quasicrystals, and Benford's Law, Livio rigorously audited popular claims about the Great Pyramid, the Parthenon, and Renaissance canvases. This mathematical catalog encodes his nine chapters and ten appendices into exact SymPy invariants over :math:`\mathbb{Q}(\phi)` paired with an empirical myth-triage ledger.
 
 Inside This Reference
 ---------------------
@@ -38,9 +38,9 @@ Key Features
 
    .. container:: home-feature-card
 
-      **48 Exact $\mathbb{Q}(\phi)$ Verifiers**
+      **48 Exact** :math:`\mathbb{Q}(\phi)` **Verifiers**
 
-      Every theorem—from Piero della Francesca's five-circle packing and al-Khwarizmi's golden division to the $120^\circ$ Golden Fractal Tree—is proved in exact SymPy algebra with zero float approximations.
+      Every theorem—from Piero della Francesca's five-circle packing and al-Khwarizmi's golden division to the :math:`120^\circ` Golden Fractal Tree—is proved in exact SymPy algebra with zero float approximations.
 
    .. container:: home-feature-card
 
